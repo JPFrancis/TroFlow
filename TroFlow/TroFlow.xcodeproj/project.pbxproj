@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9EB5231919A8AB0008095B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5221919A8AB0008095B /* Foundation.framework */; };
+		EA9EB5251919A8AB0008095B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5241919A8AB0008095B /* CoreGraphics.framework */; };
+		EA9EB5271919A8AB0008095B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5261919A8AB0008095B /* UIKit.framework */; };
+		EA9EB52D1919A8AB0008095B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB52B1919A8AB0008095B /* InfoPlist.strings */; };
+		EA9EB52F1919A8AB0008095B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB52E1919A8AB0008095B /* main.m */; };
+		EA9EB5331919A8AB0008095B /* JPFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5321919A8AB0008095B /* JPFAppDelegate.m */; };
+		EA9EB5361919A8AB0008095B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5341919A8AB0008095B /* Main.storyboard */; };
+		EA9EB5391919A8AC0008095B /* JPFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5381919A8AC0008095B /* JPFFirstViewController.m */; };
+		EA9EB53E1919A8AC0008095B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB53D1919A8AC0008095B /* Images.xcassets */; };
+		EA9EB5451919A8AC0008095B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5441919A8AC0008095B /* XCTest.framework */; };
+		EA9EB5461919A8AC0008095B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5221919A8AB0008095B /* Foundation.framework */; };
+		EA9EB5471919A8AC0008095B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5261919A8AB0008095B /* UIKit.framework */; };
+		EA9EB54F1919A8AC0008095B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB54D1919A8AC0008095B /* InfoPlist.strings */; };
+		EA9EB5511919A8AC0008095B /* TroFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5501919A8AC0008095B /* TroFlowTests.m */; };
+		EA9EB55C1919A9E10008095B /* JPFThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB55B1919A9E10008095B /* JPFThirdViewController.m */; };
+		EA9EB5611919AA9F0008095B /* star_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5601919AA9F0008095B /* star_24.png */; };
+		EA9EB5631919AAB00008095B /* troFlowBackground-jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5621919AAB00008095B /* troFlowBackground-jpg.png */; };
+		EA9EB5651919AB230008095B /* speaker_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5641919AB230008095B /* speaker_24.png */; };
+		EA9EB5671919AB5D0008095B /* calendar_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5661919AB5D0008095B /* calendar_24.png */; };
+		EA9EB5691919AB710008095B /* home_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5681919AB710008095B /* home_24.png */; };
+		EA9EB56B1919AB8C0008095B /* lock_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB56A1919AB8C0008095B /* lock_24.png */; };
+		EA9EB56D1919BCEB0008095B /* globe_24.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB56C1919BCEB0008095B /* globe_24.png */; };
+		EA9EB577191A23430008095B /* JPFPromoteScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB576191A23430008095B /* JPFPromoteScrollViewController.m */; };
+		EA9EB57A191AEFAC0008095B /* JPFEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB579191AEFAC0008095B /* JPFEventsTableViewController.m */; };
+		EA9EB57F191B05B40008095B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB57E191B05B40008095B /* Parse.framework */; };
+		EA9EB581191B06250008095B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB580191B06250008095B /* AudioToolbox.framework */; };
+		EA9EB583191B06300008095B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB582191B06300008095B /* CFNetwork.framework */; };
+		EA9EB585191B06410008095B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB584191B06410008095B /* CoreLocation.framework */; };
+		EA9EB587191B064D0008095B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB586191B064D0008095B /* libz.dylib */; };
+		EA9EB589191B06560008095B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB588191B06560008095B /* MobileCoreServices.framework */; };
+		EA9EB58B191B06600008095B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB58A191B06600008095B /* QuartzCore.framework */; };
+		EA9EB58D191B066A0008095B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB58C191B066A0008095B /* Security.framework */; };
+		EA9EB58F191B06730008095B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB58E191B06730008095B /* StoreKit.framework */; };
+		EA9EB591191B067D0008095B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB590191B067D0008095B /* SystemConfiguration.framework */; };
+		EA9EB593191B1BDA0008095B /* USC-Trojans.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB592191B1BDA0008095B /* USC-Trojans.png */; };
+		EA9EB595191B30690008095B /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB594191B30690008095B /* speaker.png */; };
+		EA9EB597191B31070008095B /* performance.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB596191B31070008095B /* performance.png */; };
+		EA9EB599191B314D0008095B /* sports.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB598191B314C0008095B /* sports.png */; };
+		EA9EB59B191B318E0008095B /* competition.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB59A191B318E0008095B /* competition.png */; };
+		EA9EB59F191B56580008095B /* social.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB59E191B56580008095B /* social.png */; };
+		EA9EB5B7191B937B0008095B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9EB5B6191B937B0008095B /* MessageUI.framework */; };
+		EA9EB5BB191B9CF40008095B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9EB5BA191B9CF40008095B /* icon.png */; };
+		EA9EB5BE191C006F0008095B /* JPFEventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5BD191C006F0008095B /* JPFEventDetailsViewController.m */; };
+		EA9EB5CE191C10150008095B /* JPFFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5CB191C10150008095B /* JPFFourthViewController.m */; };
+		EA9EB5CF191C10150008095B /* JPFMyFlowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9EB5CD191C10150008095B /* JPFMyFlowTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9EB5481919A8AC0008095B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9EB5171919A8AB0008095B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EB51E1919A8AB0008095B;
+			remoteInfo = TroFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9EB51F1919A8AB0008095B /* TroFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9EB5221919A8AB0008095B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA9EB5241919A8AB0008095B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA9EB5261919A8AB0008095B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA9EB52A1919A8AB0008095B /* TroFlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroFlow-Info.plist"; sourceTree = "<group>"; };
+		EA9EB52C1919A8AB0008095B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9EB52E1919A8AB0008095B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA9EB5301919A8AB0008095B /* TroFlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TroFlow-Prefix.pch"; sourceTree = "<group>"; };
+		EA9EB5311919A8AB0008095B /* JPFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPFAppDelegate.h; sourceTree = "<group>"; };
+		EA9EB5321919A8AB0008095B /* JPFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPFAppDelegate.m; sourceTree = "<group>"; };
+		EA9EB5351919A8AB0008095B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9EB5371919A8AB0008095B /* JPFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPFFirstViewController.h; sourceTree = "<group>"; };
+		EA9EB5381919A8AC0008095B /* JPFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPFFirstViewController.m; sourceTree = "<group>"; };
+		EA9EB53D1919A8AC0008095B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA9EB5431919A8AC0008095B /* TroFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9EB5441919A8AC0008095B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA9EB54C1919A8AC0008095B /* TroFlowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TroFlowTests-Info.plist"; sourceTree = "<group>"; };
+		EA9EB54E1919A8AC0008095B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA9EB5501919A8AC0008095B /* TroFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroFlowTests.m; sourceTree = "<group>"; };
+		EA9EB55A1919A9E10008095B /* JPFThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFThirdViewController.h; sourceTree = "<group>"; };
+		EA9EB55B1919A9E10008095B /* JPFThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFThirdViewController.m; sourceTree = "<group>"; };
+		EA9EB5601919AA9F0008095B /* star_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_24.png; path = "../../../../Downloads/TWG Retina Icons/star_24.png"; sourceTree = "<group>"; };
+		EA9EB5621919AAB00008095B /* troFlowBackground-jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "troFlowBackground-jpg.png"; path = "../../../../Documents/troFlowBackground-jpg.png"; sourceTree = "<group>"; };
+		EA9EB5641919AB230008095B /* speaker_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker_24.png; path = "../../../../Downloads/TWG Retina Icons/speaker_24.png"; sourceTree = "<group>"; };
+		EA9EB5661919AB5D0008095B /* calendar_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar_24.png; path = "../../../../Downloads/TWG Retina Icons/calendar_24.png"; sourceTree = "<group>"; };
+		EA9EB5681919AB710008095B /* home_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_24.png; path = "../../../../Downloads/TWG Retina Icons/home_24.png"; sourceTree = "<group>"; };
+		EA9EB56A1919AB8C0008095B /* lock_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock_24.png; path = "../../../../Downloads/TWG Retina Icons/lock_24.png"; sourceTree = "<group>"; };
+		EA9EB56C1919BCEB0008095B /* globe_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = globe_24.png; path = "../../../../Downloads/TWG Retina Icons/globe_24.png"; sourceTree = "<group>"; };
+		EA9EB575191A23430008095B /* JPFPromoteScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFPromoteScrollViewController.h; sourceTree = "<group>"; };
+		EA9EB576191A23430008095B /* JPFPromoteScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFPromoteScrollViewController.m; sourceTree = "<group>"; };
+		EA9EB578191AEFAC0008095B /* JPFEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFEventsTableViewController.h; sourceTree = "<group>"; };
+		EA9EB579191AEFAC0008095B /* JPFEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFEventsTableViewController.m; sourceTree = "<group>"; };
+		EA9EB57E191B05B40008095B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = TroFlow/Parse.framework; sourceTree = "<group>"; };
+		EA9EB580191B06250008095B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EA9EB582191B06300008095B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EA9EB584191B06410008095B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EA9EB586191B064D0008095B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EA9EB588191B06560008095B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EA9EB58A191B06600008095B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA9EB58C191B066A0008095B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA9EB58E191B06730008095B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EA9EB590191B067D0008095B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA9EB592191B1BDA0008095B /* USC-Trojans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "USC-Trojans.png"; path = "../../../../Downloads/USC-Trojans.png"; sourceTree = "<group>"; };
+		EA9EB594191B30690008095B /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		EA9EB596191B31070008095B /* performance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = performance.png; sourceTree = "<group>"; };
+		EA9EB598191B314C0008095B /* sports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sports.png; sourceTree = "<group>"; };
+		EA9EB59A191B318E0008095B /* competition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = competition.png; sourceTree = "<group>"; };
+		EA9EB59E191B56580008095B /* social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = social.png; sourceTree = "<group>"; };
+		EA9EB5B6191B937B0008095B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EA9EB5BA191B9CF40008095B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/icon.png; sourceTree = "<group>"; };
+		EA9EB5BC191C006F0008095B /* JPFEventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFEventDetailsViewController.h; sourceTree = "<group>"; };
+		EA9EB5BD191C006F0008095B /* JPFEventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFEventDetailsViewController.m; sourceTree = "<group>"; };
+		EA9EB5CA191C10150008095B /* JPFFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFFourthViewController.h; sourceTree = "<group>"; };
+		EA9EB5CB191C10150008095B /* JPFFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFFourthViewController.m; sourceTree = "<group>"; };
+		EA9EB5CC191C10150008095B /* JPFMyFlowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFMyFlowTableViewController.h; sourceTree = "<group>"; };
+		EA9EB5CD191C10150008095B /* JPFMyFlowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFMyFlowTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9EB51C1919A8AB0008095B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB5B7191B937B0008095B /* MessageUI.framework in Frameworks */,
+				EA9EB591191B067D0008095B /* SystemConfiguration.framework in Frameworks */,
+				EA9EB58F191B06730008095B /* StoreKit.framework in Frameworks */,
+				EA9EB58D191B066A0008095B /* Security.framework in Frameworks */,
+				EA9EB58B191B06600008095B /* QuartzCore.framework in Frameworks */,
+				EA9EB589191B06560008095B /* MobileCoreServices.framework in Frameworks */,
+				EA9EB587191B064D0008095B /* libz.dylib in Frameworks */,
+				EA9EB585191B06410008095B /* CoreLocation.framework in Frameworks */,
+				EA9EB5251919A8AB0008095B /* CoreGraphics.framework in Frameworks */,
+				EA9EB583191B06300008095B /* CFNetwork.framework in Frameworks */,
+				EA9EB581191B06250008095B /* AudioToolbox.framework in Frameworks */,
+				EA9EB5271919A8AB0008095B /* UIKit.framework in Frameworks */,
+				EA9EB57F191B05B40008095B /* Parse.framework in Frameworks */,
+				EA9EB5231919A8AB0008095B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EB5401919A8AC0008095B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB5451919A8AC0008095B /* XCTest.framework in Frameworks */,
+				EA9EB5471919A8AC0008095B /* UIKit.framework in Frameworks */,
+				EA9EB5461919A8AC0008095B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9EB5161919A8AB0008095B = {
+			isa = PBXGroup;
+			children = (
+				EA9EB5281919A8AB0008095B /* TroFlow */,
+				EA9EB54A1919A8AC0008095B /* TroFlowTests */,
+				EA9EB5211919A8AB0008095B /* Frameworks */,
+				EA9EB5201919A8AB0008095B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9EB5201919A8AB0008095B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB51F1919A8AB0008095B /* TroFlow.app */,
+				EA9EB5431919A8AC0008095B /* TroFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9EB5211919A8AB0008095B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB5B6191B937B0008095B /* MessageUI.framework */,
+				EA9EB590191B067D0008095B /* SystemConfiguration.framework */,
+				EA9EB58E191B06730008095B /* StoreKit.framework */,
+				EA9EB58C191B066A0008095B /* Security.framework */,
+				EA9EB58A191B06600008095B /* QuartzCore.framework */,
+				EA9EB588191B06560008095B /* MobileCoreServices.framework */,
+				EA9EB586191B064D0008095B /* libz.dylib */,
+				EA9EB584191B06410008095B /* CoreLocation.framework */,
+				EA9EB582191B06300008095B /* CFNetwork.framework */,
+				EA9EB580191B06250008095B /* AudioToolbox.framework */,
+				EA9EB57E191B05B40008095B /* Parse.framework */,
+				EA9EB5221919A8AB0008095B /* Foundation.framework */,
+				EA9EB5241919A8AB0008095B /* CoreGraphics.framework */,
+				EA9EB5261919A8AB0008095B /* UIKit.framework */,
+				EA9EB5441919A8AC0008095B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9EB5281919A8AB0008095B /* TroFlow */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB592191B1BDA0008095B /* USC-Trojans.png */,
+				EA9EB5311919A8AB0008095B /* JPFAppDelegate.h */,
+				EA9EB5321919A8AB0008095B /* JPFAppDelegate.m */,
+				EA9EB5CA191C10150008095B /* JPFFourthViewController.h */,
+				EA9EB5CB191C10150008095B /* JPFFourthViewController.m */,
+				EA9EB5CC191C10150008095B /* JPFMyFlowTableViewController.h */,
+				EA9EB5CD191C10150008095B /* JPFMyFlowTableViewController.m */,
+				EA9EB575191A23430008095B /* JPFPromoteScrollViewController.h */,
+				EA9EB576191A23430008095B /* JPFPromoteScrollViewController.m */,
+				EA9EB5341919A8AB0008095B /* Main.storyboard */,
+				EA9EB578191AEFAC0008095B /* JPFEventsTableViewController.h */,
+				EA9EB579191AEFAC0008095B /* JPFEventsTableViewController.m */,
+				EA9EB5BC191C006F0008095B /* JPFEventDetailsViewController.h */,
+				EA9EB5BD191C006F0008095B /* JPFEventDetailsViewController.m */,
+				EA9EB56E1919F8CF0008095B /* Images */,
+				EA9EB55A1919A9E10008095B /* JPFThirdViewController.h */,
+				EA9EB55B1919A9E10008095B /* JPFThirdViewController.m */,
+				EA9EB5371919A8AB0008095B /* JPFFirstViewController.h */,
+				EA9EB5381919A8AC0008095B /* JPFFirstViewController.m */,
+				EA9EB53D1919A8AC0008095B /* Images.xcassets */,
+				EA9EB5291919A8AB0008095B /* Supporting Files */,
+			);
+			path = TroFlow;
+			sourceTree = "<group>";
+		};
+		EA9EB5291919A8AB0008095B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB52A1919A8AB0008095B /* TroFlow-Info.plist */,
+				EA9EB52B1919A8AB0008095B /* InfoPlist.strings */,
+				EA9EB52E1919A8AB0008095B /* main.m */,
+				EA9EB5301919A8AB0008095B /* TroFlow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9EB54A1919A8AC0008095B /* TroFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB5501919A8AC0008095B /* TroFlowTests.m */,
+				EA9EB54B1919A8AC0008095B /* Supporting Files */,
+			);
+			path = TroFlowTests;
+			sourceTree = "<group>";
+		};
+		EA9EB54B1919A8AC0008095B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB54C1919A8AC0008095B /* TroFlowTests-Info.plist */,
+				EA9EB54D1919A8AC0008095B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA9EB56E1919F8CF0008095B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EB5BA191B9CF40008095B /* icon.png */,
+				EA9EB59E191B56580008095B /* social.png */,
+				EA9EB594191B30690008095B /* speaker.png */,
+				EA9EB596191B31070008095B /* performance.png */,
+				EA9EB598191B314C0008095B /* sports.png */,
+				EA9EB59A191B318E0008095B /* competition.png */,
+				EA9EB56C1919BCEB0008095B /* globe_24.png */,
+				EA9EB5681919AB710008095B /* home_24.png */,
+				EA9EB56A1919AB8C0008095B /* lock_24.png */,
+				EA9EB5661919AB5D0008095B /* calendar_24.png */,
+				EA9EB5641919AB230008095B /* speaker_24.png */,
+				EA9EB5621919AAB00008095B /* troFlowBackground-jpg.png */,
+				EA9EB5601919AA9F0008095B /* star_24.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9EB51E1919A8AB0008095B /* TroFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9EB5541919A8AC0008095B /* Build configuration list for PBXNativeTarget "TroFlow" */;
+			buildPhases = (
+				EA9EB51B1919A8AB0008095B /* Sources */,
+				EA9EB51C1919A8AB0008095B /* Frameworks */,
+				EA9EB51D1919A8AB0008095B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroFlow;
+			productName = TroFlow;
+			productReference = EA9EB51F1919A8AB0008095B /* TroFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9EB5421919A8AC0008095B /* TroFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9EB5571919A8AC0008095B /* Build configuration list for PBXNativeTarget "TroFlowTests" */;
+			buildPhases = (
+				EA9EB53F1919A8AC0008095B /* Sources */,
+				EA9EB5401919A8AC0008095B /* Frameworks */,
+				EA9EB5411919A8AC0008095B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9EB5491919A8AC0008095B /* PBXTargetDependency */,
+			);
+			name = TroFlowTests;
+			productName = TroFlowTests;
+			productReference = EA9EB5431919A8AC0008095B /* TroFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9EB5171919A8AB0008095B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JPF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = USC;
+				TargetAttributes = {
+					EA9EB5421919A8AC0008095B = {
+						TestTargetID = EA9EB51E1919A8AB0008095B;
+					};
+				};
+			};
+			buildConfigurationList = EA9EB51A1919A8AB0008095B /* Build configuration list for PBXProject "TroFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9EB5161919A8AB0008095B;
+			productRefGroup = EA9EB5201919A8AB0008095B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9EB51E1919A8AB0008095B /* TroFlow */,
+				EA9EB5421919A8AC0008095B /* TroFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9EB51D1919A8AB0008095B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB56B1919AB8C0008095B /* lock_24.png in Resources */,
+				EA9EB595191B30690008095B /* speaker.png in Resources */,
+				EA9EB597191B31070008095B /* performance.png in Resources */,
+				EA9EB53E1919A8AC0008095B /* Images.xcassets in Resources */,
+				EA9EB5651919AB230008095B /* speaker_24.png in Resources */,
+				EA9EB5611919AA9F0008095B /* star_24.png in Resources */,
+				EA9EB52D1919A8AB0008095B /* InfoPlist.strings in Resources */,
+				EA9EB5691919AB710008095B /* home_24.png in Resources */,
+				EA9EB59F191B56580008095B /* social.png in Resources */,
+				EA9EB599191B314D0008095B /* sports.png in Resources */,
+				EA9EB5361919A8AB0008095B /* Main.storyboard in Resources */,
+				EA9EB56D1919BCEB0008095B /* globe_24.png in Resources */,
+				EA9EB5BB191B9CF40008095B /* icon.png in Resources */,
+				EA9EB59B191B318E0008095B /* competition.png in Resources */,
+				EA9EB593191B1BDA0008095B /* USC-Trojans.png in Resources */,
+				EA9EB5631919AAB00008095B /* troFlowBackground-jpg.png in Resources */,
+				EA9EB5671919AB5D0008095B /* calendar_24.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EB5411919A8AC0008095B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB54F1919A8AC0008095B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9EB51B1919A8AB0008095B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB52F1919A8AB0008095B /* main.m in Sources */,
+				EA9EB577191A23430008095B /* JPFPromoteScrollViewController.m in Sources */,
+				EA9EB5CE191C10150008095B /* JPFFourthViewController.m in Sources */,
+				EA9EB5331919A8AB0008095B /* JPFAppDelegate.m in Sources */,
+				EA9EB5391919A8AC0008095B /* JPFFirstViewController.m in Sources */,
+				EA9EB57A191AEFAC0008095B /* JPFEventsTableViewController.m in Sources */,
+				EA9EB55C1919A9E10008095B /* JPFThirdViewController.m in Sources */,
+				EA9EB5BE191C006F0008095B /* JPFEventDetailsViewController.m in Sources */,
+				EA9EB5CF191C10150008095B /* JPFMyFlowTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9EB53F1919A8AC0008095B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9EB5511919A8AC0008095B /* TroFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9EB5491919A8AC0008095B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9EB51E1919A8AB0008095B /* TroFlow */;
+			targetProxy = EA9EB5481919A8AC0008095B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9EB52B1919A8AB0008095B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EB52C1919A8AB0008095B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA9EB5341919A8AB0008095B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EB5351919A8AB0008095B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA9EB54D1919A8AC0008095B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9EB54E1919A8AC0008095B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9EB5521919A8AC0008095B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA9EB5531919A8AC0008095B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9EB5551919A8AC0008095B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TroFlow",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroFlow/TroFlow-Prefix.pch";
+				INFOPLIST_FILE = "TroFlow/TroFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA9EB5561919A8AC0008095B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TroFlow",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroFlow/TroFlow-Prefix.pch";
+				INFOPLIST_FILE = "TroFlow/TroFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA9EB5581919A8AC0008095B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroFlow.app/TroFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroFlow/TroFlow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TroFlowTests/TroFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA9EB5591919A8AC0008095B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TroFlow.app/TroFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TroFlow/TroFlow-Prefix.pch";
+				INFOPLIST_FILE = "TroFlowTests/TroFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9EB51A1919A8AB0008095B /* Build configuration list for PBXProject "TroFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EB5521919A8AC0008095B /* Debug */,
+				EA9EB5531919A8AC0008095B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9EB5541919A8AC0008095B /* Build configuration list for PBXNativeTarget "TroFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EB5551919A8AC0008095B /* Debug */,
+				EA9EB5561919A8AC0008095B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA9EB5571919A8AC0008095B /* Build configuration list for PBXNativeTarget "TroFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9EB5581919A8AC0008095B /* Debug */,
+				EA9EB5591919A8AC0008095B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9EB5171919A8AB0008095B /* Project object */;
+}
